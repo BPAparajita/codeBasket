@@ -1,0 +1,45 @@
+body{
+    background-color: black;
+}
+img{
+    width: 350px ;
+    height: 400px;
+    border-radius: 12px;
+    border-style: solid;
+    border-width: 15px;
+    border-color:white;
+    position: relative;
+    animation-name: borderslide;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: reverse;
+    animation-fill-mode: both;
+   
+    
+}
+.photo{
+    text-align: center;
+    padding-top: 70px;
+    position: relative;
+}
+@keyframes borderslide {
+ 0% {
+    border-left-color: yellow;
+ }   
+ 2%{
+    border-right-color: red;
+ }
+ 5%{
+    border-top-color: green;
+ }
+ 7%{
+    border-bottom-color: orangered;
+ }
+ 10%{
+    border-color: white;
+ }
+ 20%{
+    border-color:yellow;
+ }
+}
+
